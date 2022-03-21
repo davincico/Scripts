@@ -28,9 +28,9 @@ except KeyboardInterrupt: # use ctrl + c to exit program
     print("\nExiting Program sua")
     sys.exit()
 except socket.gaierror:
-    print("Hostname cannot be resolved la")
+    print("Hostname cannot be resolved ¯\_(ツ)_/¯ ")
     sys.exit()
     
 except socket.error:
-    print("Couldnt connect to server walau")
+    print("Couldnt connect to server ¯\_(ツ)_/¯ ")
     sys.exit()
